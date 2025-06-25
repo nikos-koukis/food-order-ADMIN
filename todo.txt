@@ -1,0 +1,43 @@
+---------- TABLES ----------
+
+- BUG: Ta table object mporei na einai oloidia (idio number & section) ✅
+
+- FEAT: O admin na exei pre-defined sections ws labels kai na min grafei kathe fora to section ✅
+
+- BUG: Na min epitrepetai h allagi/diagrafi enos table ean exei live orders ✅
+
+---------- CATEGORIES ----------
+
+- FEAT: Prosthiki flag gia available/disabled category ✅
+
+---------- MENU ITEMS ----------
+
+- BUG: Parolo pou ena item exei katigoria stin DB, sto Admin FE deixnei uncategorized ✅
+
+- BUG: Ena neo item den tsekarei ean uparxei oloidio item (identifier to onoma) ✅
+
+- FEAT: Allergens missing from Create Item modal ✅
+
+- FEAT: Prosthiki sudelesti FPA ✅
+
+---------- LIVE ORDERS ----------
+
+- BUG: Duplicate orders ✅
+
+- FEAT: Allagi order status ✅
+
+- BUG: Table id sta orders apothikeuetai ws string ✅
+
+---------- OVERVIEW ----------
+
+- FEAT: Extra quick info gia ta upoloipa dedomena tou magaziou (tables, items, categories) ✅
+
+- BUG: Websocket gia Stats ✅
+
+---------- GENERAL ----------
+
+- FEAT: Sto OrderTable prosthiki section, date, total items ✅
+
+- FEAT: Multilingual
+
+- FEAT: Mobile design gia servitoro ✅
