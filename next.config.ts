@@ -5,7 +5,7 @@ import withPWA from 'next-pwa';
 
 const configWithWebpack: NextConfig = {
   images: {
-    domains: ['example.com', 'localhost', 'localhosthttps'],
+    domains: ['example.com', 'localhost', 'localhosthttps', 'food-order-api-5crt.onrender.com'],
     remotePatterns: [
       {
         protocol: 'http',
@@ -14,6 +14,10 @@ const configWithWebpack: NextConfig = {
       {
         protocol: 'https',
         hostname: 'localhost',
+      },
+      {
+        protocol: 'https',
+        hostname: 'food-order-api-5crt.onrender.com',
       },
     ],
   },
